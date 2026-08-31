@@ -598,12 +598,5 @@ The predictions are generated from the provided datasets and should not be treat
 Production deployment would require appropriate validation, governance, security, privacy, compliance, and human oversight.
 
 ```
-
-### One correction before you push it, da
-
-Your GitHub currently has the Excel datasets and the trained `.joblib` model publicly uploaded. **I strongly recommend removing those from the public repository if these are not explicitly licensed for public redistribution.** Even if they're publicly available elsewhere, you should verify their redistribution terms before putting them in your repo.
-
-Also, your README currently says **"Python 3.11+"**, while you've actually verified the project with **Python 3.10**. The new README fixes that mismatch.
-
 After replacing the README, commit/push it. Then your repository description will finally match the **actual application you built**, rather than the old synthetic fraud demo.
 ```
